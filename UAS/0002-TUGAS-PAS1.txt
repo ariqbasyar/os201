@@ -1,34 +1,35 @@
-Script started on 2020-06-08 19:31:34+07:00
+Script started on 2020-07-03 21:28:38+07:00
 $ PS1="$ "
-$ echo $GitHubUser
+$ echo $akunGitHub
 ariqbasyar
 $ echo $PSTAMP
-TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1-$GitHubUser-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
-$ eval $PSTAMP
-200608-193155-fb3a-os201/> 
+TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(sleep 1;echo $TMP1-$akunGitHub-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
+$ date
+Jum 03 Jul 2020 21:28:53  WIB
 $ PS1="\$(eval \$PSTAMP)"
-200608-193200-9ea7-os201/> echo -e $CEKSAYA
-ariqbasyar ZCZCSCRIPTSTART 200528-222810 ariqbasyar
-ariqbasyar ariqbasyar 200528-222844-7e10-UAS/ 200528-222844 SEQOK SUMOK 7e10d0e2
-ariqbasyar ariqbasyar 200528-222850-33c0-UAS/ 200528-222850 SEQOK SUMOK 33c0da55
-ariqbasyar ariqbasyar 200528-222854-e771-UAS/ 200528-222854 SEQOK SUMOK e7715f4a
-ariqbasyar ariqbasyar 200528-222900-1d69-UAS/ 200528-222900 SEQOK SUMOK 1d693efb
-ariqbasyar ZCZCSCRIPTSTOP 20200528-222931 SEQOK
-200608-193207-43f5-os201/> echo -e $CEKSEBELA1
-ariqbasyar ZCZCSCRIPTSTART 200604-212117 ashilaghassani
-ariqbasyar ashilaghassani 200604-212306-77e9-ashila.ghassani/ 200604-212306 SEQOK SUMOK 77e9e1be
-ariqbasyar ashilaghassani 200604-212323-77ab-ashila.ghassani/ 200604-212323 SEQOK SUMOK 77abda21
-ariqbasyar ashilaghassani 200604-212325-eb9b-ashila.ghassani/ 200604-212325 SEQOK SUMOK eb9be8ce
-ariqbasyar ashilaghassani 200604-212337-18cc-ashila.ghassani/ 200604-212337 SEQOK SUMOK 18cc4a5d
-ariqbasyar ZCZCSCRIPTSTOP 200604-212351 SEQOK
-200608-193211-8d9b-os201/> echo -e $CEKSEBELA2
-ariqbasyar ZCZCSCRIPTSTART 200529-222752 astridchrd
-ariqbasyar astridchrd 200529-222848-1cab-astrid.chaerida/ 200529-222848 SEQOK SUMOK 1cab892e
-ariqbasyar astridchrd 200529-222856-9aef-astrid.chaerida/ 200529-222856 SEQOK SUMOK 9aef8ff9
-ariqbasyar astridchrd 200529-222920-818e-astrid.chaerida/ 200529-222920 SEQOK SUMOK 818e9df2
-ariqbasyar astridchrd 200529-222934-3f10-astrid.chaerida/ 200529-222934 SEQOK SUMOK 3f10ea40
-ariqbasyar ZCZCSCRIPTSTOP 200529-222946 SEQOK
-200608-193215-ff2e-os201/> exit
+200703-212857-ff3a-OUTSIDE/> echo -e $CEKSAYA
+ariqbasyar ariqbasyar ZCZCSCRIPTSTART 200702-151306
+ ariqbasyar ariqbasyar 200702-151340-b2fa-OUTSIDE/ 200702-151340 SEQOK SUMOK b2fa7ec8
+ ariqbasyar ariqbasyar 200702-151346-b1f7-OUTSIDE/ 200702-151346 SEQOK SUMOK b1f79a6c
+ ariqbasyar ariqbasyar ZCZCSCRIPTSTOP 200702-151404 SEQOK SUMOK
+
+200703-212901-8e43-OUTSIDE/> echo -e $CEKSEBELA1
+ariqbasyar ashilaghassani ZCZCSCRIPTSTART 200604-212117
+ ariqbasyar ashilaghassani 200604-212306-77e9-ashila.ghassani/ 200604-212306 SEQOK SUMOK 77e9e1be
+ ariqbasyar ashilaghassani 200604-212323-77ab-ashila.ghassani/ 200604-212323 SEQOK SUMOK 77abda21
+ ariqbasyar ashilaghassani 200604-212325-eb9b-ashila.ghassani/ 200604-212325 SEQOK SUMOK eb9be8ce
+ ariqbasyar ashilaghassani 200604-212337-18cc-ashila.ghassani/ 200604-212337 SEQOK SUMOK 18cc4a5d
+ ariqbasyar ashilaghassani ZCZCSCRIPTSTOP 200604-212351 SEQOK SUMOK
+
+200703-212910-4b75-OUTSIDE/> echo -e $CEKSEBELA2
+ariqbasyar astridchrd ZCZCSCRIPTSTART 200529-222752
+ ariqbasyar astridchrd 200529-222848-1cab-astrid.chaerida/ 200529-222848 SEQOK SUMOK 1cab892e
+ ariqbasyar astridchrd 200529-222856-9aef-astrid.chaerida/ 200529-222856 SEQOK SUMOK 9aef8ff9
+ ariqbasyar astridchrd 200529-222920-818e-astrid.chaerida/ 200529-222920 SEQOK SUMOK 818e9df2
+ ariqbasyar astridchrd 200529-222934-3f10-astrid.chaerida/ 200529-222934 SEQOK SUMOK 3f10ea40
+ ariqbasyar astridchrd ZCZCSCRIPTSTOP 200529-222946 SEQOK SUMOK
+
+200703-212916-48dc-OUTSIDE/> exit
 exit
 
-Script done on 2020-06-08 19:32:20+07:00 [COMMAND_EXIT_CODE="0"]
+Script done on 2020-07-03 21:29:20+07:00
